@@ -15,10 +15,28 @@ p.pkg {
 
 h2 {
   text-align: center;
-  font-size: 24px;
+  font-size: 14px;
   margin-bottom: 2px;
+  font-weight: bold;
 }
 .cost {
   text-align: center;
   font-weight: bolder;
+}
+
+.bg-info {
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 991px) {
+  .imgResize {
+        max-height: 390px;
+    }
+}
+
+h1 {
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 6px;
 }
